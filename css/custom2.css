@@ -13,6 +13,9 @@
     margin-bottom:3%
 }
 
+.black {
+    display: none;
+}
 #nav2 ul li {
     display:inline
 }
@@ -230,8 +233,10 @@ a:focus {
     display:block;
     margin-left:38%;
     width:25%;
-    margin-top:50px
+    margin-top:50px;
+    margin-bottom: 10px;
 }
+    
 }
 
 @media screen and (max-height: 700px) {
@@ -254,6 +259,8 @@ a:focus {
 .about {
     width:100%!important
 }
+    
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -296,6 +303,20 @@ a:focus {
     display:none!important
 }
 }
+@media screen and (max-width: 600px) {
+#banner {
+    display: none !important;
+}
+    
+.black {
+    display: block !important;
+    
+}
+    
+    .white {
+        display: none !important;
+    }
+}
 
 .footer {
     background-color:red;
@@ -323,4 +344,13 @@ a:resume {
 
 .footer-icons {
     text-align: center;
+}
+
+.mobile-bg {
+    background-image: url(../images/index-bg.jpg);
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1000px;
 }
