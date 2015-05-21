@@ -290,6 +290,26 @@ a:focus {
 }
 }
 
+.black {
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    #banner {
+        display: none;
+    }
+    
+    .black {
+        display: block;
+    }
+    .white {
+        display: none;
+    }
+    
+}
+
 .footer {
     background-color:red;
     height:20px;
