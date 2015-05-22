@@ -337,3 +337,22 @@ a:resume {
 .footer-icons {
     text-align: center;
 }
+
+.mobile-bg {
+    position: relative;
+    float: left;
+    
+}
+
+.icons-grouped {
+    width: 100%;
+
+        position: absolute;
+  margin-top: 50px;
+        float: left;
+    top: 0;
+}
+
+.bg {
+    height: 650px;
+}
