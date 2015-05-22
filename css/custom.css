@@ -320,7 +320,7 @@ a:focus {
     }
     
     .bg {
-        visibility: visible;
+        visibility: visible !important;
     }
     
         .icons-grouped-mobile {
