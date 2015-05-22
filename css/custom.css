@@ -11,6 +11,10 @@
     top: 0;
 }
 
+.bg {
+    visibility: hidden;
+}
+
 #nav2 {
     margin-top:20px;
     max-width:1150px
