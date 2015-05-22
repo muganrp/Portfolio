@@ -2,6 +2,15 @@
     min-height:70px!important
 }
 
+.icons-grouped-mobile {
+    width: 100%;
+
+        position: absolute;
+  margin-top: 150px !important;
+        float: left;
+    top: 0;
+}
+
 #nav2 {
     margin-top:20px;
     max-width:1150px
@@ -294,18 +303,24 @@ a:focus {
     display: none;
 }
 
+    .bg {
+        visibility: hiden;
+    }
 
-@media screen and (max-width: 600px) {
+
+
+@media screen and (max-width: 558px) {
     
     #banner {
         display: none;
     }
     
-    .black {
-        display: block;
+    .bg {
+        visibility: visible;
     }
-    .white {
-        display: none;
+    
+        .icons-grouped-mobile {
+       margin-top: 50px !important;
     }
     
 }
@@ -324,10 +339,7 @@ a:resume {
     color:#5DA0CE!important
 }
 
-#mobile-bg {
-    background-image:url(../images/index-bg.jpg);
-    position:relative
-}
+
 
 .thanks {
     text-align: center;
@@ -338,21 +350,17 @@ a:resume {
     text-align: center;
 }
 
+
+
 .mobile-bg {
     position: relative;
     float: left;
     
 }
 
-.icons-grouped {
-    width: 100%;
 
-        position: absolute;
-  margin-top: 50px;
-        float: left;
-    top: 0;
-}
 
 .bg {
     height: 650px;
+
 }
