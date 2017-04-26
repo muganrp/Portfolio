@@ -2,6 +2,19 @@
     min-height:70px!important
 }
 
+.icons-grouped-mobile {
+    width: 100%;
+
+        position: absolute;
+  margin-top: 13% !important;
+        float: left;
+    top: 0;
+}
+
+.bg {
+    visibility: hidden;
+}
+
 #nav2 {
     margin-top:20px;
     max-width:1150px
@@ -203,7 +216,8 @@ a:focus {
 .icons {
     display:block;
     margin-left:30%;
-    width:40%
+    width:40%;
+
 }
 
 .icon-right {
@@ -236,7 +250,12 @@ a:focus {
     margin-top:50px;
     margin-bottom: 10px;
 }
+<<<<<<< HEAD
     
+=======
+
+
+>>>>>>> gh-pages
 }
 
 @media screen and (max-height: 700px) {
@@ -318,6 +337,32 @@ a:focus {
     }
 }
 
+.black {
+    display: none;
+}
+
+    .bg {
+        visibility: hiden;
+    }
+
+
+
+@media screen and (max-width: 558px) {
+
+    #banner {
+        display: none;
+    }
+
+    .bg {
+        visibility: visible !important ;
+    }
+
+        .icons-grouped-mobile {
+       margin-top: 50px !important;
+    }
+
+}
+
 .footer {
     background-color:red;
     height:20px;
@@ -332,10 +377,7 @@ a:resume {
     color:#5DA0CE!important
 }
 
-#mobile-bg {
-    background-image:url(../images/index-bg.jpg);
-    position:relative
-}
+
 
 .thanks {
     text-align: center;
@@ -346,6 +388,7 @@ a:resume {
     text-align: center;
 }
 
+<<<<<<< HEAD
 .mobile-bg {
     background-image: url(../images/index-bg.jpg);
     width: 100%;
@@ -353,4 +396,19 @@ a:resume {
     top: 0;
     left: 0;
     height: 1000px;
+=======
+
+
+.mobile-bg {
+    position: relative;
+    float: left;
+
+}
+
+
+
+.bg {
+    height: 650px;
+
+>>>>>>> gh-pages
 }
